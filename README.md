@@ -15,5 +15,6 @@ To make thresholding completely automated, it is necessary for the computer to a
     Local methods adapt the threshold value on each pixel to the local image characteristics. In these methods, a different T is selected for each pixel in the image.
 
 In this code: 
-using double threshold. 
+using double threshold and search the best threshold for each pixel. 
+The formula is improved version of Sauvola algorithm
 
